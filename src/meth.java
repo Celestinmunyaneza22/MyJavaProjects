@@ -19,14 +19,24 @@ public class meth {
 //    }
 
 
-    public static int fact(int a){
-        int factorial=1;
-        for(int i=1;i<=a;i++){
-            factorial*=i;
-        }
-        return factorial;
+//    public static int fact(int a){
+//        int factorial=1;
+//        for(int i=1;i<=a;i++){
+//            factorial*=i;
+//        }
+//        return factorial;
+//    }
+//    public static void main(String[] args){
+//        System.out.println("factorial of the  given number is: "+fact(5));
+//    }
+
+    public static int Maxthree(int a, int b, int c){
+        int max=a;
+        if(b>max) max=b;
+        if(c>max) max=c;
+        return max;
     }
     public static void main(String[] args){
-        System.out.println("factorial of the  given number is: "+fact(5));
+        System.out.println("Maximum number is: "+Maxthree(34,56,23));
     }
     }
